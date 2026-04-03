@@ -871,15 +871,15 @@ const Footer = () => {
             <h4 className="font-bold mb-8 uppercase tracking-widest text-xs text-black/40">Sosyal Medya</h4>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-black/5 flex items-center justify-center hover:bg-gradient-brand hover:text-white transition-all"><Linkedin size={18} /></a>
-              <a href="#" className="w-10 h-10 rounded-full bg-black/5 flex items-center justify-center hover:bg-gradient-brand hover:text-white transition-all"><Youtube size={18} /></a>
-              <a href="#" className="w-10 h-10 rounded-full bg-black/5 flex items-center justify-center hover:bg-gradient-brand hover:text-white transition-all"><Instagram size={18} /></a>
+              <a href="https://www.youtube.com/@BirDoktoraSoralim" className="w-10 h-10 rounded-full bg-black/5 flex items-center justify-center hover:bg-gradient-brand hover:text-white transition-all"><Youtube size={18} /></a>
+              <a href="https://www.instagram.com/harpglobalofficial/" className="w-10 h-10 rounded-full bg-black/5 flex items-center justify-center hover:bg-gradient-brand hover:text-white transition-all"><Instagram size={18} /></a>
             </div>
           </div>
         </div>
 
         <div className="pt-12 border-t border-black/5 flex flex-col md:flex-row justify-between items-center gap-8">
           <p className="text-[10px] font-mono uppercase tracking-[0.2em] text-black/20">
-            © 2026 HARP LABS. Tüm Hakları Saklıdır.
+            © 2026 HARP GLOBAL TEKNOLOJİ & SAĞLIK TİCARET SANAYİ LTD. ŞTİ. Tüm Hakları Saklıdır.
           </p>
           
           <div className="flex items-center gap-3">
