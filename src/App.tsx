@@ -209,9 +209,14 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-4">
-          <button className="hidden sm:flex items-center gap-2 bg-gradient-brand text-white px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg shadow-champagne/20">
+          <a 
+            href="https://docs.google.com/presentation/d/1CarSRLh5dUlTuw0zV_WInw3kUh5akGZX/edit?usp=sharing&ouid=103866230473336695363&rtpof=true&sd=true"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden sm:flex items-center gap-2 bg-gradient-brand text-white px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg shadow-champagne/20"
+          >
             Yatırımcı Sunumu
-          </button>
+          </a>
           <button 
             className="md:hidden text-black"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -251,9 +256,14 @@ const Navbar = () => {
                   </Link>
                 )
               ))}
-              <button className="w-full bg-gradient-brand text-white py-4 rounded-2xl font-bold uppercase tracking-widest mt-4 shadow-lg shadow-champagne/20">
+              <a 
+                href="https://docs.google.com/presentation/d/1CarSRLh5dUlTuw0zV_WInw3kUh5akGZX/edit?usp=sharing&ouid=103866230473336695363&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-gradient-brand text-white py-4 rounded-2xl font-bold uppercase tracking-widest mt-4 shadow-lg shadow-champagne/20 text-center block"
+              >
                 Yatırımcı Sunumu İste
-              </button>
+              </a>
             </div>
           </motion.div>
         )}
@@ -378,9 +388,14 @@ const Hero = () => {
             <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
           </button>
           
-          <button className="px-8 py-4 rounded-full border border-black/20 font-bold uppercase tracking-widest text-sm hover:bg-black/5 transition-all text-black">
+          <a 
+            href="https://docs.google.com/presentation/d/1CarSRLh5dUlTuw0zV_WInw3kUh5akGZX/edit?usp=sharing&ouid=103866230473336695363&rtpof=true&sd=true"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-4 rounded-full border border-black/20 font-bold uppercase tracking-widest text-sm hover:bg-black/5 transition-all text-black text-center inline-block"
+          >
             Yatırımcı Sunumu İste
-          </button>
+          </a>
         </div>
       </div>
     </section>
